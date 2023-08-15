@@ -20,7 +20,6 @@ const ClosePopUp = function () {
 
 btnCloseModal.addEventListener('click', ClosePopUp);
 overlay.addEventListener('click', ClosePopUp);
-
 document.addEventListener('keydown', function (eventt) {
   if (eventt.key === 'Escape') {
     if (!modal.classList.contains('hidden')) {
